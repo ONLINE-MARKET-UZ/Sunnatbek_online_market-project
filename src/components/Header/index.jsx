@@ -4,8 +4,8 @@ import './style.scss'
 
 const index = () => {
     return (
-        <header>
-            <div className="container mx-auto px-5">
+        <header className=' border-b bg-white'>
+            <div className="container mx-auto px-5 relative">
                 <HeaderTop />
                 <Navbar />
             </div>

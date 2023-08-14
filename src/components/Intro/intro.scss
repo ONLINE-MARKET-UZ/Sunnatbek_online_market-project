@@ -1,0 +1,14 @@
+.intro_wrapper {
+    & li {
+        width: 250px;
+        padding: 10px;
+
+        &:hover {
+            background: #E5F1FF;
+        }
+
+        &:focus {
+            background: #E5F1FF;
+        }
+    }
+}
