@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import Header from './components/Header'
-import Intro from './components/Intro'
+import Layout from './components/Layout'
 
 function App() {
   return (
     <>
       <Header />
-      <Intro />
+      <Layout />
     </>
   )
 }
